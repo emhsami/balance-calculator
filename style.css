@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Poppins', sans-serif;
+    height: auto;
 }
 .box-title{
     text-align: center;
@@ -80,6 +81,7 @@ label {
     height: 100px;
     line-height: 25px;
     font-weight: 700;
+    list-style: none;
 }
 
 .trans-title{
