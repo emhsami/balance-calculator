@@ -23,9 +23,11 @@
             <h1 class="box-title">Balance Calculator</h1>
             <div class="main-body">
                 <h4 class="available-balance">Available Balance: TK. <span id="available-balance">0</span></h4>
-                <label for="name">Amount:</label>
-                <input class="input-amount" id="input-amount" type="number" name="number" value="number"
-                    placeholder="Amount">
+                <div class="amount-input">
+                    <label for="name">Amount:</label>
+                    <input class="input-amount" id="input-amount" type="number" name="number" value="number"
+                        placeholder="Amount">
+                </div>
                 <div class="top-btns">
                     <button onclick="depoBtn()" id="depo-btn" class="btn-primary btn-bg-1">Deposit</button>
                     <button onclick="expBtn()" id="exp-btn" class="btn-primary btn-bg-2">Expense</button>

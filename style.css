@@ -65,11 +65,13 @@ label {
     font-weight: 700;
 }
 
+
 .input-amount {
     margin-left: 5px;
     padding: 3px 0 3px 15px;
     border-radius: 30px;
     border: 0;
+    /* line-height: 20px; */
 }
 
 #trans-list {
@@ -93,4 +95,12 @@ label {
 }
 #trans-list li.deposit {
     color: green;
+}
+
+
+@media screen and (max-width: 576px){
+  .input-amount{
+    width: 60%;
+  }
+  
 }
