@@ -31,6 +31,9 @@ body {
     margin-top: 10px;
     line-height: 20px;
 }
+.balance-amount{
+    color: #053fd1;
+}
 
 .top-btns {
     text-align: center;
