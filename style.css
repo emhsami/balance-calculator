@@ -14,11 +14,16 @@ body {
 }
 
 .main-body {
-    background: rgb(224, 188, 57);
+    background: rgb(154, 195, 212);
     border-radius: 10px;
     line-height: 80px;
     padding: 15px 30px 40px 30px;
     margin-top: 20px;
+}
+
+.available-balance{
+    margin-top: 10px;
+    line-height: 20px;
 }
 
 .top-btns {
@@ -59,4 +64,26 @@ label {
     padding: 3px 0 3px 15px;
     border-radius: 30px;
     border: 0;
+}
+
+#trans-list {
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(219, 244, 245);
+    overflow-y: auto;
+    height: 100px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.trans-title{
+    line-height: 50px;
+}
+
+#trans-list li.expense {
+    color: red;
+}
+#trans-list li.deposit {
+    color: green;
 }

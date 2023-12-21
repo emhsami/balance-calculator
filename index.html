@@ -21,25 +21,29 @@
         <div class="main-box">
             <h1 class="box-title">Balance Calculator</h1>
             <div class="main-body">
-                <h4 class="available-balance">Available Balance: TK. <span id="available-balance"></span></h4>
-                
+                <h4 class="available-balance">Available Balance: TK. <span id="available-balance">0</span></h4>
                     <label for="name">Amount:</label>
                     <input class="input-amount" id="input-amount" type="number" name="number" value="number"
                         placeholder="Amount">
                     <div class="top-btns">
-                        <button id="depo-btn" class="btn-primary btn-bg-1">Deposit</button>
-                        <button id="exp-btn" class="btn-primary btn-bg-2">Expense</button>
+                        <button onclick="depoBtn()" id="depo-btn" class="btn-primary btn-bg-1">Deposit</button>
+                        <button onclick="expBtn()" id="exp-btn" class="btn-primary btn-bg-2">Expense</button>
                     </div>
                     <div class="btm-btns">
                         <button id="reset-btn" class="btn-primary btn-bg-3">Reset</button>
                     </div>
-                
+                    <h4 class="trans-title">Transaction List:</h4>
+                    <ul id="trans-list">
+                        <!-- lists will be added here -->
+                    </ul>
             </div>
+            
         </div>
     </main>
     <footer>
 
     </footer>
+    
     <script src="script.js"></script>
 </body>
 
